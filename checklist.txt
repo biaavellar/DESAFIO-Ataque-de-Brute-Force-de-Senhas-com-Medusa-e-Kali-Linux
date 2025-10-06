@@ -1,0 +1,22 @@
+CHECKLIST DE MITIGAÇÃO & PRIORIDADES
+
+PRIORIDADE ALTA
+- Implementar MFA em contas sensíveis.
+- Configurar lockout após N tentativas falhas (ex.: 5).
+- Desativar serviços inseguros (ex.: FTP sem TLS).
+- Corrigir exposição desnecessária de SMB em redes públicas.
+
+PRIORIDADE MÉDIA
+- Implementar rate limiting em endpoints de autenticação.
+- Ativar logs detalhados de autenticação e encaminhar para SIEM.
+- Revisar políticas de senha (comprimento mínimo e bloqueio de senhas comuns).
+
+PRIORIDADE BAIXA
+- Implementar captchas adaptativos em formas com muitas tentativas.
+- Treinamento de usuários sobre senhas fortes e phishing.
+- Revisar permissões em shares SMB e mover dados sensíveis para locais controlados.
+
+VERIFICAÇÃO PÓS-REMEDIAÇÃO
+- Repetir testes com mesmas wordlists (em ambiente controlado).
+- Confirmar alertas no sistema de logs/SIEM.
+- Validar que lockout e rate-limiting funcionam com testes automatizados.
