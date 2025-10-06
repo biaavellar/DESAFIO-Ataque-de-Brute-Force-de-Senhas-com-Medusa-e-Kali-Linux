@@ -84,11 +84,3 @@ Veja `template_relatorio.md` para um relatório pronto a preencher com resultado
 
 ## Ética e legalidade
 Registre consentimentos, mantenha logs e não reutilize credenciais obtidas fora do ambiente de teste. Este material não deve ser usado para ações maliciosas.
-
----
-
-Se quiser, eu posso:
-- Gerar um `README.md` mais enxuto com checklist para o GitHub.
-- Gerar um `relatorio_exemplo.md` preenchido com resultados simulados (fictícios).
-- Criar um `playbook.md` com passos automatizados em ordem.  
-Diga qual desses prefere que eu crie a seguir.
